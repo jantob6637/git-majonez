@@ -1,0 +1,44 @@
+  327  ls
+  328  cd git-majonez/
+  329  git init
+  330  touch main.cpp
+  331  vim main.cpp 
+  332  cat main.cpp 
+  333  git status
+  334  git add main.cpp 
+  335  git commit -m"Initial commit"
+  336  vim main.cpp 
+  337  git status
+  338  git add main.cpp 
+  339  git commit -m"Farewell changed"
+  340  gitk &
+  341  git remote add origin https://github.com/jantob6637/git-majonez.git
+  342  git push -u origin master 
+  343  git branch cs
+  344  git reflog
+  345  git checkout cs
+  346  git reflog
+  347  git reset b83e564
+  348  git status
+  349  git checkout cs
+  350  git checkout master 
+  351  git checkout cs
+  352  git checkout  master 
+  353  git checkout master
+  354  git restore main.cpp
+  355  git checkout master 
+  356  git checkout cs
+  357  vim main.cpp 
+  358  git status
+  359  git add main.cpp 
+  360  git commit -m"Greetings"
+  361  git push origin cs
+  362  git checkout master
+  363  git checkout cs
+  364  git checkout master
+  365  git merge cs
+  366  git add main.cpp 
+  367  git status
+  368  git commit 
+  369  history
+  370  history | tail -n 44 > history.txt
