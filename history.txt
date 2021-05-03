@@ -1,3 +1,4 @@
+  326  mkdir git-majonez
   327  ls
   328  cd git-majonez/
   329  git init
