@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	cout<<"Goodbye World";
+	cout<<"Goodbye Coders School";
 	syetem("pause");
 	return 0;
 }
